@@ -1,0 +1,92 @@
+[33mcommit 7e9bdc915eaa4ddb11f7fb70b5517c02aa6876a7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: furkanoksuz99 <furkanoksuz987@gmail.com>
+Date:   Sat Aug 10 21:20:56 2024 +0300
+
+    İlk commit: Proje dosyaları eklendi
+
+[1mdiff --git a/ README.md b/ README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0d3cfd2[m
+[1m--- /dev/null[m
+[1m+++ b/ README.md[m	
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m# Hava Durumu Tahmin Uygulaması[m
+[32m+[m
+[32m+[m[32mBu proje, bir şehir için 7 günlük hava durumu tahmini sağlar ve verileri görselleştirir. Kullanıcıdan şehir adını alır,görselleştirir.[m
+[32m+[m
+[32m+[m[32m1. **Gereksinimleri Yükleyin:**[m
+[32m+[m
+[32m+[m[32m   Projeyi çalıştırmadan önce gerekli Python kütüphanelerini yüklemeniz gerekiyor. Terminal veya komut istemcisine aşağıdaki komutu girin:[m
+[32m+[m
+[32m+[m[32m   ```bash[m
+[32m+[m[32m   pip install -r requirements.txt[m
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..13566b8[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.gitignore[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m# Default ignored files[m
+[32m+[m[32m/shelf/[m
+[32m+[m[32m/workspace.xml[m
+[32m+[m[32m# Editor-based HTTP Client requests[m
+[32m+[m[32m/httpRequests/[m
+[32m+[m[32m# Datasource local storage ignored files[m
+[32m+[m[32m/dataSources/[m
+[32m+[m[32m/dataSources.local.xml[m
+[1mdiff --git a/.idea/hava_durumu.iml b/.idea/hava_durumu.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4a4386d[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/hava_durumu.iml[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="PYTHON_MODULE" version="4">[m
+[32m+[m[32m  <component name="NewModuleRootManager">[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$">[m
+[32m+[m[32m      <excludeFolder url="file://$MODULE_DIR$/.venv" />[m
+[32m+[m[32m    </content>[m
+[32m+[m[32m    <orderEntry type="jdk" jdkName="Python 3.12 (bitirme_projesi)" jdkType="Python SDK" />[m
+[32m+[m[32m    <orderEntry type="sourceFolder" forTests="false" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..105ce2d[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/inspectionProfiles/profiles_settings.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<component name="InspectionProjectProfileManager">[m
+[32m+[m[32m  <settings>[m
+[32m+[m[32m    <option name="USE_PROJECT_PROFILE" value="false" />[m
+[32m+[m[32m    <version value="1.0" />[m
+[32m+[m[32m  </settings>[m
+[32m+[m[32m</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2c51d53[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (bitirme_projesi)" project-jdk-type="Python SDK" />[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f7a482f[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/.idea/hava_durumu.iml" filepath="$PROJECT_DIR$/.idea/hava_durumu.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
